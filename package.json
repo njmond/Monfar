@@ -1,0 +1,32 @@
+{
+  "name": "monkey-far-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "compile": "hardhat compile",
+    "deploy:base": "hardhat run scripts/deploy.ts --network base",
+    "deploy:basesepolia": "hardhat run scripts/deploy.ts --network basesepolia"
+  },
+  "dependencies": {
+    "ethers": "^6.10.0",
+    "next": "14.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.0.2",
+    "@types/node": "^20.12.12",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.5",
+    "hardhat": "^2.22.8",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+    }
